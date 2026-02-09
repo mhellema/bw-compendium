@@ -1,6 +1,5 @@
 {
     "id": "foundry-bw-compendium",
-    #"name": "foundry-bw-compendium",
     "title": "Foundry BW Compendium",
     "description": "A set of compendiums that are compatible with StarsTserk Burning Wheel Module",
     "version": "0.1.135",
