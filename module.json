@@ -1,0 +1,144 @@
+{
+    "id": "foundry-bw-compendium",
+    #"name": "foundry-bw-compendium",
+    "title": "Foundry BW Compendium",
+    "description": "A set of compendiums that are compatible with StarsTserk Burning Wheel Module",
+    "version": "0.1.135",
+    "compatibility.minimum": "0.5.5",
+    "compatibility.verified": "13",
+    "compatibility": {
+        "minimum": 9,
+        "verified": "10.291"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "burningwheel",
+                "type": "system",
+                "manifest": "https://github.com/StasTserk/foundry-burningwheel/blob/master/system.json",
+                "compatibility": {
+                    "verified": "1.4.2"
+                }
+            }
+        ]
+    },
+    "systems": [
+        "burningwheel"
+    ],
+    "authors": "PauloDeTiege",
+    "url": "https://github.com/PauloDeTiege/FoundryBWCompendium",
+    "manifest": "https://raw.githubusercontent.com/PauloDeTiege/FoundryBWCompendium/master/module.json",
+    "download": "https://github.com/PauloDeTiege/FoundryBWCompendium/archive/v0.1.14.zip",
+    "bugs": "https://github.com/PauloDeTiege/FoundryBWCompendium/issues",
+    "readme": "https://github.com/PauloDeTiege/FoundryBWCompendium/README.md",
+    "packs": [
+        {
+            "name": "common-skills",
+            "label": "Common Skills",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/common-skills.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "common-traits",
+            "label": "Common Traits",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/common-traits.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "dwarven-lifepaths",
+            "label": "Dwarven Lifepaths",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/dwarven-lifepaths.db",
+            "type": "Actor",
+            "entity": "Actor"
+        },
+        {
+            "name": "dwarven-traits",
+            "label": "Dwarven Traits",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/dwarven-traits.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "elven-lifepaths",
+            "label": "Elven Lifepaths",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/elven-lifepaths.db",
+            "type": "Actor",
+            "entity": "Actor"
+        },
+        {
+            "name": "elven-traits",
+            "label": "Elven Traits",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/elven-traits.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "human-lifepaths",
+            "label": "Human Lifepaths",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/human-lifepaths.db",
+            "type": "Actor",
+            "entity": "Actor"
+        },
+        {
+            "name": "melee-weapons",
+            "label": "Melee Weapons",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/melee-weapons.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "orcish-lifepaths",
+            "label": "Orcish Lifepaths",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/orcish-lifepaths.db",
+            "type": "Actor",
+            "entity": "Actor"
+        },
+        {
+            "name": "orc-traits",
+            "label": "Orc Traits",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/orc-traits.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "ranged-weapons",
+            "label": "Ranged Weapons",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/ranged-weapons.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "sorcery-spells",
+            "label": "Sorcery Spells",
+            "module": "foundry-bw-compendium",
+            "system": "burningwheel",
+            "path": "packs/sorcery-spells.db",
+            "type": "Item",
+            "entity": "Item"
+        }
+    ]
+}
